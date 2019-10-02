@@ -22,7 +22,7 @@ What kind of **style** should you create? Whatever you'd like! **Just avoid dupl
 
 ### A Few Things To Note While Creating Your Style:
 - **ADD YOUR DESIGN IN ITS OWN FOLDER:** *Inside the `styles` folder, make a new folder named after the style you are submitting. This folder is where you should place your files.*
-- **KEEP YOUR FILES TO A MINIMUM:** *Just use a main `index.html` & `style.css` file. If you must, **must**, use some javascript-magic for your design style to work, then you may also include a `script.js` file & any neccessary libraries.*
+- **KEEP YOUR FILES TO A MINIMUM:** *Just use a main `index.html` & `style.css` file. If you must, **must**, use some javascript-magic for your design style to work, then you may also include a `script.js` file & any neccessary libraries. Additional resources, such as images, are at your discreation of where to add, how to display, and how many to use.*
 - **BE CLEAR IN YOUR PULL-REQUEST:** *Don't just sumbit a PR and call it a day, please. You should explain what style you are submitting, and any links to examples or articles discussing the style are greatly appreciated and can help get your PR merged quicker!*
 - **KEEP THE MAIN CONTENT THE SAME:** *The "main" content of the site should stay the same. When forking this repo, copy the template `index.html` file in the root directory, this will help you know which content should remain, and which content you are free to modify & customize to your specific style.*
 - **TAG YOUR ISSUES APPROPRIATELY:** *We have tags for bugs, typos, questions, and misc. Use em' or... lose em'! ...Or something like that...*
