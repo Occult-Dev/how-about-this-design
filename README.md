@@ -1,5 +1,7 @@
 <p align="center">
   <img src="Logo.svg">
+  
+  [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/B0B814SV0)
 </p>
 
 **Minimalism, Brutalism, Vaporwave, Retro, Futuristic...** *There’s so many design styles out there it can be tough to stay on top of them all!*
