@@ -1,0 +1,13 @@
+*, html, body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#wrapper {
+    --not-really-black: #252525;
+    --not-really-white: #F5F5F5;
+    --kinda-gray: #626262;
+    --drop-that-shadow: 3px 3px 3px 0px rgba(3, 3, 3, 0.33);
+    --inset-shadow: 3px 3px 3px 0px inset rgba(0, 0, 0, 0.75);
+}
