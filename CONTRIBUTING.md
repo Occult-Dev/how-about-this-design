@@ -30,6 +30,8 @@ As for adding new content, I suggest you keep this to a minimum. Don't add to mu
 # Any Restrictions On What I'm Allowed To Upload & Include In My Style Folder?
 Whatever you need, but again, try keeping it to a minimum. Images can be linked to or included in your folder.
 
+CSS frameworks can be a huge help to making your style, so feel free to use them.
+
 Javascript files are allowed, but only when neccessary for you style. Javascript frameworks are also allowed, but you're encouraged to try and keep your folder as slim & lightweight as possible!
 
 # So... Just Look For A Design Syle, Create A Version Of This Site With It, And Submit A PR?
