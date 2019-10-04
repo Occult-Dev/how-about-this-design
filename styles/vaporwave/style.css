@@ -1,0 +1,34 @@
+h1 {
+	font-family: 'Share Tech', sans-serif;
+	font-size: 50px;
+	border: solid;
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	border-width: thick;
+	background-image: url("images/water.jpeg");
+}
+h2, p {
+	font-family: 'Abel', sans-serif;    
+}
+body {
+	min-width:1300px;
+	background-image: linear-gradient(#fcb5e3, #b5fce1);
+}
+#design-examples-section h1 {
+    margin-bottom: 0.25em
+}
+
+#design-examples-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 1em;
+}
+.design-example img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+#footer {
+	position: absolute;
+    margin-top: 50px;
+}
