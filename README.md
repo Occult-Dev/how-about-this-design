@@ -1,7 +1,7 @@
 <p align="center">
   <img src="Logo.svg">
   
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/B0B814SV0) ![OSS Lifecycle](https://img.shields.io/osslifecycle/StuffBySpencer/how-about-this-design?color=%238c52f7&style=for-the-badge) ![Twitter Follow](https://img.shields.io/twitter/follow/stuffbyspencer?color=%238c52f7&label=%F0%9F%90%A6%20twitter&logoColor=%238c52f7&style=for-the-badge) ![Mastodon Follow](https://img.shields.io/mastodon/follow/12434?color=%238C52F7&domain=https%3A%2F%2Fmastodon.social&label=%F0%9F%90%98%20mastodon&logoColor=%238C52F7&style=for-the-badge)
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/B0B814SV0) [![OSS Lifecycle](https://img.shields.io/osslifecycle/StuffBySpencer/how-about-this-design?color=%238c52f7&style=for-the-badge)](https://github.com/StuffBySpencer/how-about-this-design/blob/master/OSSMETADATA) [![Twitter Follow](https://img.shields.io/twitter/follow/stuffbyspencer?color=%238c52f7&label=%F0%9F%90%A6%20twitter&logoColor=%238c52f7&style=for-the-badge)](https://twitter.com/StuffBySpencer) [![Mastodon Follow](https://img.shields.io/mastodon/follow/12434?color=%238C52F7&domain=https%3A%2F%2Fmastodon.social&label=%F0%9F%90%98%20mastodon&logoColor=%238C52F7&style=for-the-badge)](https://mastodon.social/@StuffBySpencer)
 </p>
 
 **Minimalism, Brutalism, Vaporwave, Retro, Futuristic...** *There’s so many design styles out there it can be tough to stay on top of them all!*
