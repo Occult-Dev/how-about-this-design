@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Old+Standard+TT:400,400i,700&display=swap');
+/* TOP LEVEL STYLES */
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #FBF4E4;
+    --color-eerie: #161925;
+    --color-bistre: #442825;
+    --color-gray: #6A6262;
+    --color-pearl: #EFE2C4;
+    --color-brown: #2D2323;
+    --color-custard: #DDC07C;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    background: var(--bg-color);
+    font-family: 'Old Standard TT', serif;
+}
+
+/* LAYOUT STYLES */
+
+main {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+
+main .content { /* two column layout */
+    width: 68%;
+    height: auto;
+    margin: 1%;
+}
+main .sidebar {
+    width: 28%;
+    height: auto;
+    margin: 1%;
+}
+
+
+/* ELEMENT STYLES */
+h1, h2, h3 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+a, a:visited {
+    font-style: oblique;
+    font-weight: 600;
+    color: var(--color-brown);
+}
+
+a:hover {
+    color: var(--color-custard);
+}
+
+/* h1#title {
+    text-shadow: 1px 2px 1px var(--color-gray);
+} */
+
+/* Navigation Styles */
+
+#menu {
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0.75em;
+    display: inline-block;
+    border-style: double none double;
+}
+
+#menu li {
+    float: left;
+    padding: 0 0.4em;
+}
+
+#menu li::before {
+    content: '\2660';
+    padding-right: 8px;
+}
+
+#menu li a, #nav li a:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.80em;
+    font-style: normal;
+    color: var(--color-eerie);
+}
+
+#menu li a:hover {
+    text-decoration: underline;
+    color: var(--color-bistre);
+}
+
+/* SIDEBAR STYLES */
+
+.sidebar h2 {
+    font-size: 0.90em;
+    font-weight: 600;
+    padding-bottom: 1em;
+    color: var(--color-brown);
+}
+
+.sidebar__item {
+    background: var(--color-pearl);
+    padding: 1em;
+}
+
+#useful {
+    font-style: oblique;
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid var(--color-brown);
+    border-style: solid none solid;
+}
+/* CONTENT STYLES */
+
+.content h1 {
+    font-weight: 700;
+    padding-bottom: 0.70em;
+}
+
+.content__grid {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    flex: 1 1 auto;
+    width: 100%;
+}
+
+.content__grid h2 {
+    font-size: 0.85em;
+}
+
+.content__griditem {
+    flex-grow: 1;
+    min-width: 30%;
+    padding: 1em 1.5em;
+    border-left: 1px solid var(--color-gray);
+}
