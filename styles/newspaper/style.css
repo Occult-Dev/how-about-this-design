@@ -61,66 +61,8 @@ a:hover {
 
 h1#title {
     font-size: 2.5em;
-    margin: 1em 0;
+    margin: 1em 0 0.25em;
     text-align: center;
-}
-
-/* Navigation Styles */
-
-nav {
-    display: flex;
-    flex-direction: row;
-    flex-flow: row wrap;
-    width: 100%;
-}
-
-#menu {
-    width: 86%;
-    flex-grow: 1;
-    list-style: none;
-    margin: 0;
-    padding: 0.75em;
-    display: inline-block;
-    border-style: double none double;
-}
-
-#menu li {
-    float: left;
-    padding: 0 0.4em;
-}
-
-#menu li::before {
-    content: '\2660';
-    padding-right: 8px;
-}
-
-#menu li a, #nav li a:visited {
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 0.80em;
-    font-style: normal;
-    color: var(--color-eerie);
-}
-
-#menu li a:hover {
-    text-decoration: underline;
-    color: var(--color-bistre);
-}
-
-#contribute {
-    flex-basis: 13%;
-    flex-grow: 1;
-    flex-shrink: 1;
-    margin-left: 1%;
-    padding: .5em;
-    font-size: 0.9em;
-    background: var(--color-brown);
-    color: white;
-}
-
-#contribute a {
-    color: white;
 }
 
 
