@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Hey, How About This Design?</title>
+		<meta name="description" content="visual design-dictionary showing real world examples of various design-styles in use">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="theme-color" content="#FFFFFF">
+    <meta charset="utf-8">
+    <link href="https://unpkg.com/nes.css@2.2.1/css/nes.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+	</head>
+	
+	<body>
+		<header>
+      <h1>8-Bits... How About This Design? <i id="heart" class="nes-icon is-large heart"></i></h1>
+    </header>
+    
+		<p class="spacing">
+			<strong><em>Brutalism, Minimalism, Vaporwave, Retro, Futuristic...</em></strong> There’s so many design styles out there it can be tough to stay on top of them all!
+			<br><br>
+			Here at <strong>How About This Design?</strong> we help you choose your next great design by showing you real-world examples of various different design styles. Choose a style from the menu below, and watch this site morph right before your eyes!
+			<br><br>
+			The content of the site stays <em>mostly</em> the same, it just shifts around, changes palettes, and gets a bit aesthetically funky.<br>
+			At the bottom of this page are examples from various categories (<em>product design, banners, merch, etc.</em>) that showcase a more specific breakdown of your chosen style.
+			<br><br>
+			<strong><em>We hope you find this useful!</em></strong>
+		</p>
+    
+    <div class="nes-container with-title">
+        <h3 class="title">More styles</h3>
+        <ul class="nes-list is-circle">
+          <li><a class="nes-btn" href="../minimalism/index.html">Minimalism</a></li>
+          <li><a class="nes-btn" href="../vaporwave/index.html">Vaporwave</a></li>
+          <li><a class="nes-btn" href="../material/index.html">Material Design</a></li>
+          <li>Help contribute styles on the <a href="https://github.com/StuffBySpencer/how-about-this-design/">GitHub Repo</a></li>
+          <i class="nes-octocat animate"></i>
+        </ul>
+    </div>
+		
+    <div class="about-design nes-container with-title spacing">
+      <h1 class="title">About This Design:</h1>
+  
+      <p>
+        The 8-bit or more simply 8-bit style is a name given from the 2000s, during the democratization of 32-bit and 64-bit computers, to realizations, notably of the type demos and video games using graphics with large pixels, in the style of Pixel art, close to those of micro-computers and 8-bit or 16-bit game consoles, and music chiptune type.
+
+        This type of realization is found in other forms of art, as in urban art with video game characters whose pixels are represented by tiles cemented to the walls, as the achievements of Invader. in the comic strip (some boards of Boulet2 or more recently the album Basse Def of Jibé), the animation, like the image of 8-bit Cinema, adapting famous movies in animations 8 bits3 or the music with the chiptune.
+        
+        This art influences especially, in the field of video games, freelancers (like, Fez, Linkin Park: 8-Bit Rebellion, Nidhogg or Crawl), but not only, we can find it for example, in hidden trials of games video produced by major publishers.
+      </p>
+      <a href="https://fr.wikipedia.org/wiki/Style_8_bits" class="nes-btn">Source</a>
+
+      <p>
+        Pixel art is a form of digital art, created through the use of software, where images are edited on the pixel level. The aesthetic for this kind of graphics comes from 8-bit and 16-bit computers and video game consoles, in addition to other limited systems such as graphing calculators. In most pixel art, the color palette used is extremely limited in size, with some pixel art using only two colors.
+
+        Creating or modifying pixel art characters or objects for video games is sometimes called spriting, a term that arose from the hobbyist community. The term likely came from the term sprite, a term used in computer graphics to describe a two-dimensional bitmap that is used in tandem with other bitmaps to construct a larger scene.
+      </p>
+      <a href="https://fr.wikipedia.org/wiki/Style_8_bits" class="nes-btn">Source</a>
+    </div>
+
+
+		<div class="nes-container with-title spacing">
+      <h1 class="title">More Style Examples:</h1>
+
+      <div class="img-container">
+        <img src="./assets/images/space.png" alt="Space" />
+        <a href="https://www.androidguys.com/featured/wallpapers/8-bit-wallpapers-youll-totally-want-for-your-android/" class="nes-btn is-primary">Source</a>
+      </div>
+
+      <div class="img-container">
+        <img src="./assets/images/mario.png" alt="Mario" />
+        <a href="https://www.agentsofgeek.com/2013/10/stunning-8-bit-video-game-poster-art-harlan-elam/" class="nes-btn is-primary">Source</a>
+      </div>
+
+      <div class="img-container">
+        <img src="./assets/images/daftpunk.jpg" alt="Daftpunk" />
+        <a href="https://www.youtube.com/watch?v=CfMMlT8Lyns" class="nes-btn is-primary">Source</a>
+      </div>
+
+      <div class="img-container">
+        <img src="./assets/images/zelda.jpg" alt="Zelda" />
+        <a href="https://wallpapersafari.com/w/KAI5w2" class="nes-btn is-primary">Source</a>
+      </div>
+
+      <div class="img-container">
+        <img src="./assets/images/undertale.jpg" alt="Undertale" />
+        <a href="https://undertale.com/" class="nes-btn is-primary">Source</a>
+      </div>
+    </div>
+		
+    <footer>
+        <p>You Now Know About 8-Bits, Thanks To: <a href="https://github.com/KeziahMoselle">KeziahMoselle</a></p>
+    </footer>
+    
+    <script>
+      ;(function () {
+        const heart = document.getElementById('heart')
+        let isFilled = true
+
+        setInterval(blink, 1000)
+
+        function blink () {
+          if (isFilled) {
+            isFilled = !isFilled
+            return heart.classList.add('is-empty')
+          }
+
+          isFilled = !isFilled
+          heart.classList.remove('is-empty')
+        }
+      })()
+    </script>
+	</body>
+</html>

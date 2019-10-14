@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'Press Start 2P';
+  src: url('./assets/PressStart2P.ttf');
+}
+
+body {
+  font-family: 'Press Start 2P', monospace;
+  max-width: 1200px;
+  margin: auto;
+  padding: 36px;
+  font-size: 20px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+}
+
+footer {
+  text-align: center;
+}
+
+ul li + li {
+ margin: 16px 0;
+}
+
+.spacing {
+  margin: 64px 0;
+}
+
+.about-design a {
+ margin-bottom: 64px;
+}
+
+.img-container {
+  width: 100%;
+  margin: 64px 0;
+}
+
+.img-container img {
+  width: 100%;
+  margin: 12px 0;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background: black;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+::selection {
+  color: white;
+  background: black;
+}
