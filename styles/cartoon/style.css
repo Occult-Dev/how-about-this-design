@@ -1,0 +1,181 @@
+*, html, body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  
+}
+body{
+    min-height:100%;
+  background:linear-gradient(0deg,rgba(222, 246, 252, 0.918),rgba(0, 174, 255, 0.3)),url(images/funky-lines.png);
+  background-size: 100%;
+}
+
+.header{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.header img{
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+}
+.speechbubble h1{
+    color: #ffffff;
+    font-family: 'Bangers', sans-serif; 
+    letter-spacing: 4px;
+    font-size: 6rem;
+    margin-top: 50px;
+    padding: 20px;
+    float: right;
+    text-align: center;
+    position: relative;
+	background:  #87c243;
+	border-radius: .4em;
+    
+}
+
+.speechbubble h1:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 48px solid transparent;
+	border-right-color: #87c243;
+	border-left: 0;
+	border-bottom: 0;
+	margin-top: -24px;
+	margin-left: -48px;
+}
+
+.desc-wrapper{
+    display: flex;
+}
+.compyCartoon {
+    float: right;
+    margin-right: 5%;
+}
+.compyCartoon img{
+    width: 500px;
+    height: 500px;
+}
+.desc-content{
+    margin-left: 15%;
+    padding: 20px;
+    width: 50%;
+    font-family: 'open-sans', sans-serif;
+    font-size: 1.5rem;
+    position: relative;
+	background: #70dfe9;
+	border-radius: .4em;
+}
+.desc-content:after {
+    content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 33px solid transparent;
+	border-left-color: #70dfe9;
+	border-right: 0;
+	border-top: 0;
+	margin-top: -16.5px;
+	margin-right: -33px;
+}
+.desc-content strong{
+ font-family: 'Bangers', sans-serif; 
+ letter-spacing: 2px;
+}
+
+.otherStyles{
+    font-family: 'Bangers', sans-serif;
+    font-size: 2rem;
+    clear: both;
+    padding: 20px;
+    columns: 2;
+    background-color: yellow;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.otherStyles a{
+    text-decoration: none;
+    color: black;
+}
+.otherStyles a:hover{
+    color: red;
+}
+ul{
+    list-style: none;
+}
+
+.about{
+    
+}
+.nerdCartoon{
+    float: left;
+    margin-left: 5%;
+
+}
+.nerdCartoon img{
+    width: 400px;
+    height: 470px;
+}
+.aboutBubble {
+    margin-top: 180px;
+    width: 55%;
+    padding: 20px;
+    float: right;
+    margin-right: 15%;
+    padding-top: 20px;
+    font-family: 'open-sans', sans-serif;
+    font-size: 1.5rem;
+    position: relative;
+	background: #00aabb;
+    border-radius: .4em;
+    
+}
+.aboutBubble:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 29px solid transparent;
+	border-right-color: #00aabb;
+	border-left: 0;
+	border-top: 0;
+	margin-top: -14.5px;
+	margin-left: -29px;
+}
+
+.aboutBubble h1{
+    font-family: 'bangers', sans-serif;
+    letter-spacing: 3px;
+    padding-bottom: 10px;}
+
+
+
+.style-examples{
+    clear: both;
+}
+.style-examples h1{
+    font-family: 'bangers', sans-serif;
+    letter-spacing: 3px;;
+}
+.style-examples img {
+    position: relative;
+    float: left;
+    width:  500px;
+    height: 500px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
