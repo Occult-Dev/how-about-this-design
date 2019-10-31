@@ -24,7 +24,7 @@ body{
     float: left;
     overflow: hidden;
 }
-.speechbubble h1{
+.header-bubble h1{
     color: #ffffff;
     font-family: 'Fredoka One', sans-serif; 
     letter-spacing: 2px;
@@ -36,7 +36,7 @@ body{
 	border-radius: .4em;
     
 }
-.speechbubble h1:after {
+.header-bubble h1:after {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -51,19 +51,18 @@ body{
 	margin-left: -48px;
 }
 
-
-.desc-wrapper{
-    display: flex;
+.intro-wrapper{
+    clear: both;
 }
-.compyCartoon {
+.compy-toon {
     float: right;
     margin-right: 5%;
 }
-.compyCartoon img{
+.compy-toon img{
     width: 500px;
     height: 500px;
 }
-.desc-content{
+.intro-content{
     margin-left: 13%;
     padding: 20px;
     width: 50%;
@@ -76,7 +75,7 @@ body{
     background: #84c943;
 	border-radius: .4em;
 }
-.desc-content:after {
+.intro-content:after {
     content: '';
 	position: absolute;
 	right: 0;
@@ -91,7 +90,7 @@ body{
 	margin-right: -33px;
 }
 
-.desc-content strong{
+.intro-content strong{
  font-family: 'Fredoka One', sans-serif;
  color:#ffffff;
  letter-spacing: 2px;
@@ -113,7 +112,7 @@ body{
     text-decoration: none;
     color: #156092;
 }
-.otherStyles a:hover{
+.other-styles a:hover{
     color: red;
 }
 ul {
@@ -121,16 +120,16 @@ ul {
 }
 
 /* about section */
-.nerdCartoon{
+.nerd-toon{
     float: left;
     margin-left: 5%;
 
 }
-.nerdCartoon img{
+.nerd-toon img{
     width: 400px;
     height: 470px;
 }
-.aboutBubble {
+.about-bubble {
     margin-top: 180px;
     width: 55%;
     padding: 20px;
@@ -145,7 +144,7 @@ ul {
     border-radius: .4em;
     
 }
-.aboutBubble:after {
+.about-bubble:after {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -160,7 +159,7 @@ ul {
 	margin-left: -29px;
 }
 
-.aboutBubble h1{
+.about-bubble h1{
     font-family: 'Fredoka One', sans-serif;
     letter-spacing: 3px;
     padding-bottom: 10px;
@@ -219,6 +218,7 @@ color: white;}
     justify-content: space-around;
 }
 .gallery{
+    float: left;
     background-color: #84c943;
     border-radius: 5%;
     margin: 16px;
@@ -235,7 +235,7 @@ color: white;}
     padding: 5px;
     text-align: center;
     font-family: 'Fredoka One', sans-serif; 
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
   .source a{
       text-decoration: none; 
@@ -289,7 +289,7 @@ color: white;}
         height:100%;
        
     }
-    .speechbubble h1{
+    .header-bubble h1{
         font-size: 3rem;
         margin-top: 50px;
         margin-left:10px;
@@ -300,31 +300,26 @@ color: white;}
         color: #ffffff;
         font-family: 'Fredoka One', sans-serif;}
 
-    .speechbubble h1:after {
+    .header-bubble h1:after {
         display:none;
     }
 
-    .desc-wrapper{
+    .intro-wrapper{
         width:100%;
         height: 50px;
-        display: flex;
-        justify-content: space-evenly;
-        
     }
    
-    .compyCartoon img{
+    .compy-toon img{
         margin: 0 auto;
         width: 350px;
         height: 350px;
     }
     
-    .desc-content{
+    .intro-content{
       float: left;
       min-width:500px;
-    
-        
     }
-    .desc-content:after {
+    .intro-content:after {
       display: none;
     }
     
@@ -348,15 +343,15 @@ color: white;}
     display: flex;
     justify-content: space-around;
 }
-.nerdCartoon{
+.nerd-toon{
     float: left;
     min-width: 200px;;
 }
-.nerdCartoon img{
+.nerd-toon img{
     width: 200px;
     height: 270px;
 }
-.aboutBubble {
+.about-bubble {
     min-width: 300px;;
     margin-top: 0;
     width: 55%;
@@ -373,7 +368,7 @@ color: white;}
 }
 
 
-.aboutBubble:after {
+.about-bubble:after {
     display:none;
 }
 
@@ -386,10 +381,9 @@ color: white;}
 display: none;
 }
 .gallery{
+    width: 50%;
     background-color: #84c943;
     border-radius: 5%;
-    margin: 16px;
-    
 }
 .gallery img{
     width: 100%;
