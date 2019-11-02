@@ -212,13 +212,14 @@ color: white;}
 
 
 .examples{
+    width: 90vw;
     padding-top: 50px;
-    clear: both;
-    display: flex;
-    justify-content: space-around;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    justify-items: center;
 }
 .gallery{
-    float: left;
     background-color: #84c943;
     border-radius: 5%;
     margin: 16px;
@@ -373,9 +374,7 @@ color: white;}
 }
 
 .examples{
-    padding-top: 50px;
-    clear: both;
-    display: block;}
+    padding-top: 50px;}
     
 .smile-bubble:after {
 display: none;
