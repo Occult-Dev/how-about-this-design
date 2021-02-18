@@ -1,7 +1,7 @@
 <p align="center">
   <img src="Logo.svg">
   
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/B0B814SV0) [![OSS Lifecycle](https://img.shields.io/osslifecycle/StuffBySpencer/how-about-this-design?color=%238c52f7&style=for-the-badge)](https://github.com/StuffBySpencer/how-about-this-design/blob/master/OSSMETADATA) [![Twitter Follow](https://img.shields.io/twitter/follow/stuffbyspencer?color=%238c52f7&label=%F0%9F%90%A6%20twitter&logoColor=%238c52f7&style=for-the-badge)](https://twitter.com/StuffBySpencer) [![Mastodon Follow](https://img.shields.io/mastodon/follow/12434?color=%238C52F7&domain=https%3A%2F%2Fmastodon.social&label=%F0%9F%90%98%20mastodon&logoColor=%238C52F7&style=for-the-badge)](https://mastodon.social/@StuffBySpencer)
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/B0B814SV0) [![OSS Lifecycle](https://img.shields.io/osslifecycle/StuffBySpencer/how-about-this-design?color=%238c52f7&style=for-the-badge)](https://github.com/StuffBySpencer/how-about-this-design/blob/master/OSSMETADATA) [![Twitter Follow](https://img.shields.io/twitter/follow/siredspace?color=%238c52f7&label=%F0%9F%90%A6%20twitter&logoColor=%238c52f7&style=for-the-badge)](https://twitter.com/siredspace) [![forthebadge](https://forthebadge.com/images/badges/powered-by-pull-requests.svg)](https://forthebadge.com)
 </p>
 
 **Minimalism, Brutalism, Vaporwave, Retro, Futuristic...** *There’s so many design styles out there it can be tough to stay on top of them all!*
@@ -17,7 +17,6 @@ If you're a designer, developer, web-dev, whatever-dev, then you're at the right
 
 What kind of **style** should you create? Whatever you'd like! **Just avoid duplicating any pre-existing styles that have already been submitted & approved.** Take a look at the pre-existing styles to see what others are doing & get inspired. Also, google-searching & pintrest are you friends for design mood~boards!
 
-# ***🎃 PERFECT REPO FOR [HACKTOBERFEST](https://hacktoberfest.digitalocean.com/)! 🎃***
 #### I recommend checking out the `minimal` folder inside the `styles` folder to get an example of how to create a new style
 
 ### A Few Things To Note While Creating Your Style:
