@@ -1,11 +1,9 @@
 <p align="center">
   <img src="Logo.svg">
   
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/B0B814SV0)
 [![OSS Lifecycle](https://img.shields.io/osslifecycle/StuffBySpencer/how-about-this-design?color=%238c52f7&style=for-the-badge)](https://github.com/StuffBySpencer/how-about-this-design/blob/master/OSSMETADATA)
 [![Twitter Follow](https://img.shields.io/twitter/follow/siredspace?color=%238c52f7&label=%F0%9F%90%A6%20twitter&logoColor=%238c52f7&style=for-the-badge)](https://twitter.com/siredspace)
-
-<a href="https://github.com/SiredSpace/how-about-this-design/issues?q=is%3Aopen+is%3Aissue+label%3Astyle"><img src="https://forthebadge.com/images/badges/powered-by-pull-requests.svg" data-canonical-src="https://forthebadge.com/images/badges/powered-by-pull-requests.svg" width="200" height="400" /></a>
+<a href="https://github.com/SiredSpace/how-about-this-design/issues?q=is%3Aopen+is%3Aissue+label%3Astyle"><img src="https://forthebadge.com/images/badges/powered-by-pull-requests.svg" data-canonical-src="https://forthebadge.com/images/badges/powered-by-pull-requests.svg" width="200" height="30" /></a>
 </p>
 
 **Minimalism, Brutalism, Vaporwave, Retro, Futuristic...** *There’s so many design styles out there it can be tough to stay on top of them all!*
